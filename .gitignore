@@ -1,15 +1,16 @@
 HELP.md
 .gradle
+*.jar
 build/
-!gradle/wrapper/gradle-wrapper.jar
+
 !**/src/main/**/build/
 !**/src/test/**/build/
-/build/
-*.log
+
 .env
 *.pem
 *.key
-*.jar
+
+!gradle/wrapper/gradle-wrapper.jar
 
 ### STS ###
 .apt_generated
